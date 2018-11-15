@@ -20,5 +20,7 @@ function CurrenLine(numline){
     return 'There is nobody waiting to be served!'
   } else{
     for(var i=0; i<numline.length; i++){
-      line += (i+1) + ". " + numline[i] + ", "
+      line += (i+1) + ". " + numline[i] + ", ";
+    }
+    return 
  
