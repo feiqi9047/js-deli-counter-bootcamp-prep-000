@@ -25,3 +25,4 @@ function CurrenLine(numline){
   return 'The line is currently: ${newLine}'
 }
 
+takeANumber(katzDeliLine, "Ada");
