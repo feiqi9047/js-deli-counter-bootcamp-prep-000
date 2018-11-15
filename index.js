@@ -19,4 +19,5 @@ function CurrenLine(numline){
   if (numline.length===0){
     return 'There is nobody waiting to be served!'
   } else{
+    for(var i=0; i<numline.length; i++){
  
