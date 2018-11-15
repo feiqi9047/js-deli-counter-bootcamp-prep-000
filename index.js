@@ -15,7 +15,7 @@ function nowServing(line){
 }
 
 function CurrenLine(numline){
-  var str = "The line is currently: "
+  var str = []
   if (numline.length===0){
     return 'There is nobody waiting to be served!'
   } else{
