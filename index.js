@@ -26,3 +26,5 @@ function CurrenLine(numline){
 }
 
 takeANumber(katzDeliLine, "Ada");
+takeANumber(katzDeliLine, "Grace"); 
+
