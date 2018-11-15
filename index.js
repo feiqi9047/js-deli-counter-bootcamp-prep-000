@@ -20,7 +20,7 @@ function CurrenLine(katzDeliLine){
   } else{
     var newLine = [],i;
     for (i=0; i<katzDeliLine.length;i++); 
-    newLine.push(' ${i+1}.${katzDeliLine[i]}');
+    newLine.push(' ${i+1}. ${katzDeliLine[i]}');
   }
   return 'The line is currently: ${newLine}'
 }
