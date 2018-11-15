@@ -24,4 +24,4 @@ function CurrenLine(numline){
     }
     return str.slice(0,str.length-2);
   }
- 
+}
