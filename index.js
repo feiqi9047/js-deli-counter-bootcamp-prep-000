@@ -18,7 +18,7 @@ function CurrenLine(katzDeliLine){
   if (line.length===0){
     return 'There is nobody waiting to be served!'
   } else{
-    var newLine = [];
+    var newLine = [],i;
     for (var i=0; i<newLine.length; i++); 
     newLine.push('${i+1}.${newLine[i]}');
   }
