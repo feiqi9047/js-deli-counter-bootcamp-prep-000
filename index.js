@@ -14,4 +14,12 @@ function nowServing(line){
   }
 }
 
-function CurrenLine()
+function CurrenLine(katzDeliLine){
+  if (line.length===0){
+    return 'There is nobody waiting to be served!'
+  } else{
+    var newLine = [];
+    for (var i=0; i<newLine.length; i++); 
+    newLine.push()
+  }
+}
