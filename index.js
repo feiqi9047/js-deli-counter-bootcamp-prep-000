@@ -19,7 +19,7 @@ function CurrenLine(katzDeliLine){
     return 'There is nobody waiting to be served!'
   } else{
     var newLine = [],i;
-    for (i=0; i<newLine.length;i++); 
+    for (i=0; i<katzDeliLine.length;i++); 
     newLine.push(' ${i+1}.${katzDeliLine[i]}');
   }
   return 'The line is currently: ${newLine}'
