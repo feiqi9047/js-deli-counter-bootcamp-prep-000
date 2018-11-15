@@ -33,3 +33,4 @@ nowServing(katzDeliLine);
 currentLine(katzDeliLine);
 takeANumber(katzDeliLine, "Matz");
 curnowServing(katzDeliLine); 
+currentLine(katzDeliLine); 
