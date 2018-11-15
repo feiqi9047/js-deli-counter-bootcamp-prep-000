@@ -31,3 +31,4 @@ takeANumber(katzDeliLine, "Kent");
 currentLine(katzDeliLine);
 nowServing(katzDeliLine);
 currentLine(katzDeliLine);
+takeANumber(katzDeliLine, "Matz");
