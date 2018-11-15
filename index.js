@@ -11,6 +11,8 @@ function nowServing(line){
     return 'There is nobody waiting to be served!'
   } else{
     var newLine = [];
-    for (var i=0; i<line.length; i++)
+    for (var i=0; i<line.length; i++){
+      newline.push()
+    }
   }
 }
