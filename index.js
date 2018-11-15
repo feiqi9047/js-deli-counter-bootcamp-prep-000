@@ -4,5 +4,5 @@ var number = 0;
 function takeANumber(katzDeliLine){
   number = number +1;
   katzDeliLine.push(number);
-  return "Welcome," + name +", you are" + line.length + "in line."
+  return "Welcome," + ${number} +", you are" + ${katzDeliLine.length} + "in line."
 }
