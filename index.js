@@ -14,6 +14,6 @@ function nowServing(line){
     for (var i=0; i<line.length; i++){
       newLine.push('${i+1}.${line[i]}')
     }
-    return 'Currently serving $newLline}'
+    return 'Currently serving $newLine}'
   }
 }
