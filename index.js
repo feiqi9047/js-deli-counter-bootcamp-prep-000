@@ -30,4 +30,4 @@ takeANumber(katzDeliLine, "Grace");
 takeANumber(katzDeliLine, "Kent");
 currentLine(katzDeliLine);
 nowServing(katzDeliLine);
-
+currentLine(katzDeliLine);
