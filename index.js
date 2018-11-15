@@ -20,6 +20,6 @@ function CurrenLine(katzDeliLine){
   } else{
     var newLine = [];
     for (var i=0; i<newLine.length; i++); 
-    newLine.push('${i}.${newLine[i]}')
+    newLine.push('${i+1}.${newLine[i]}')
   }
 }
