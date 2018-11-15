@@ -14,22 +14,14 @@ function nowServing(line){
   }
 }
 
-function currentLine(line){
-var outputString;
-if (line.length === 0){
-outputString = “The line is currently empty.”
-}
-else{
-outputString = “The line is currently: ”;
-for(var i = 0; i < line.length ; i++){
-if (i === 0){
-
-outputString = outputString + (i+1) + “. ” + line[i];
-}
-else{
-outputString = outputString + “, ” + (i+1) + “. ” + line[i];
-}
-}
-}
-return outputString;
-}
+ function currentLine(line) {
+   var lineNum = [];
+   if (line.length === 0) {
+     return "The line is currently empty.";
+   }
+   for (var i = 0; i < line.length; i++) {
+     lineNum.push(` ${i+1}. ${line[i]}`);
+ 	}
+   return "The line is currently:" + lineNum;
+ }
+ 
