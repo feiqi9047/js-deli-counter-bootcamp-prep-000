@@ -23,6 +23,6 @@ function CurrenLine(numline){
       str += (i+1) + ". " + numline[i] + ", "
     }
     str = str.slice(0,str.length-2);
-    return "The line is currently: " + str;
+    return "The line is currently: " + str
   }
 }
