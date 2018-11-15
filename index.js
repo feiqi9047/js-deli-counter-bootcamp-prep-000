@@ -12,7 +12,7 @@ function nowServing(line){
   } else{
     var newLine = [];
     for (var i=0; i<line.length; i++){
-      newline.push()
+      newLine.push()
     }
   }
 }
