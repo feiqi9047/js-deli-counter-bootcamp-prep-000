@@ -22,6 +22,6 @@ function CurrenLine(numline){
     for(var i=0; i<numline.length; i++){
       line += (i+1) + ". " + numline[i] + ", ";
     }
-    return line.slice(0,numline.length-2);
+    return str.slice(0,numline.length-2);
   }
  
