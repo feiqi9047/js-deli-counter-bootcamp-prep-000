@@ -10,10 +10,6 @@ function nowServing(line){
   if (line.length===0){
     return 'There is nobody waiting to be served!'
   } else{
-    var newLine = [];
-    for (var i=0; i<line.length; i++){
-      newLine.push('${i+1}.${line[i]}')
-    }
-    return 'Currently serving ${newLine}'
+    return 'Currently serving ${line.shift()}.'
   }
 }
